@@ -16,6 +16,26 @@ body {
   font-size: 16px;
 }
 
+.borderless, .borderless td, .borderless th {
+    border: none;
+}
+
+.bt-header-mobi.header-mobi .bt-container-logo {
+  width: 90% !important;
+}
+
+.bt-site-navigation.mobi-menu-navigation {
+  background: #000 !important;
+}
+
+.bt-header-mobi {
+  background-color: #ebf4f3 !important;
+}
+
+.bt-header-mobi.header-mobi .bt-container-logo a {
+  font-size: 20px;
+}
+
 .bt-header-container {
   background: #ec7f22 !important;
   color: white;
@@ -29,6 +49,10 @@ body {
   color: white !important;
   font-size: 16px !important;
   text-transform: uppercase !important;
+}
+
+#menu-main-menu-1 {
+  white-space: nowrap;
 }
 
 #menu-main-menu-1 ul.sub-menu {
@@ -48,6 +72,18 @@ body {
     background: #ec7f22;
     color: white;
     padding: 10px 30px;
+}
+
+.btn-style2 {
+  line-height: 24px;
+  font-family: "Work Sans";
+  font-size: 11px;
+  letter-spacing: 4px;
+  background: #ec7f22;
+  color: white;
+  border-radius: 4px;
+  padding: 4px 12px 4px 15px;
+  display: inline-block;
 }
 
 .header-top-bar {
@@ -78,7 +114,7 @@ body {
 .home-banner-text-wrapper {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 43%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -90,17 +126,15 @@ body {
 }
 
 .home-tagline {
-  color: white;
+  color: rgb(13, 67, 13);
   font-weight: bold;
   font-size: 28px;
-  text-shadow: 2px 2px #999;
 }
 
 .home-banner-text {
-  color: white;
+  color: #151414;
   font-size: 20px;
-  margin-top: 15px;
-  text-shadow: 2px 2px #999;
+  margin-top: 10px;
 }
 
 .banner-box-blurb {
