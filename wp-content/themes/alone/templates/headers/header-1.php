@@ -23,8 +23,8 @@ $header_class_container = !empty($alone_header_full_content) ? 'container-fluid'
 	<!-- Header main menu -->
 	<div class="bt-header-main">
 		<div class="bt-container-logo bt-vertical-align-middle">
-			<div class="container header-top-bar">
-				<div class="left-side" style="margin-left: 7px">
+			<div class="header-top-bar">
+				<div class="left-side" style="margin-left: 15px">
 					<a href="/"><img src="/wp-content/uploads/2017/08/mc4hr-logo.png"
 						style="width: 80px; margin-top: 10px;" border="0"
 						alt="MCHR" /></a>
@@ -33,7 +33,8 @@ $header_class_container = !empty($alone_header_full_content) ? 'container-fluid'
 					<a href="/">Migrant Center For Human Rights</a>
 				</div>
 				<div class="right-side" style="margin-top: 32px;">
-					<a class="btn-style1" href="/contact-us">DONATE</a>
+					<button id="btn-donate" class="btn-style1" href="javascript:"
+						onclick="window.location='/contact-us';" style="margin-right: 30px;">DONATE</button>
 				</div>
 			</div>
 		</div>

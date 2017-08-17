@@ -56,7 +56,7 @@ body {
 }
 
 #menu-main-menu-1 ul.sub-menu {
-  width: 285px;
+  width: 310px;
 }
 
 .left-side {
@@ -71,7 +71,9 @@ body {
     line-height: 38px;
     background: #ec7f22;
     color: white;
-    padding: 10px 30px;
+    padding: 0 30px;
+    border: 1px solid #cc6600;
+    border-radius: 3px;
 }
 
 .btn-style2 {
