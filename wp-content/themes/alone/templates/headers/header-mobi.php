@@ -15,9 +15,8 @@ $header_class_arr = array( basename( __FILE__, '.php' ), $alone_logo_retina, 'fw
 				<table class="borderless" style="width: 100%;">
 					<tr>
 						<td>
-							<a href="/"><img src="/wp-content/uploads/2017/08/mc4hr-logo.png"
-							style="width: 80px; margin-top: 10px;" border="0"
-							alt="MCHR" /></a>
+							<a href="/"><img src="https://migrantcenter.org/wp-content/uploads/2017/10/MCFHR-logo-500x500.png" border="0" alt="MCHR" class="logo-main"
+							style="margin: 10px; width: 100px;" /></a>
 						</td>
 						<td style="text-align: center;">
 							<a href="/">MIGRANT CENTER FOR HUMAN RIGHTS</a>
@@ -31,7 +30,7 @@ $header_class_arr = array( basename( __FILE__, '.php' ), $alone_logo_retina, 'fw
 					if( ! $_FW ) { ?>
 						<div class="default-mobi-menu-wrap" data-default-menu-mobi-handle>
 							<button class="button-toggle-ui" style="max-width: 70%; min-width: 70%; background: #0d430d; border: none;"><?php _e('Menu', 'alone'); ?></button>
-							<a class="btn-style2" href="/contact-us">DONATE</a>
+							<a class="btn-style2" href="/donate">DONATE</a>
 							<?php fw_theme_nav_menu( 'mobi_menu' ); ?>
 						</div>
 					<?php } else {

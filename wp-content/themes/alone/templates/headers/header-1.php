@@ -25,16 +25,21 @@ $header_class_container = !empty($alone_header_full_content) ? 'container-fluid'
 		<div class="bt-container-logo bt-vertical-align-middle">
 			<div class="header-top-bar">
 				<div class="left-side" style="margin-left: 15px">
-					<a href="/"><img src="/wp-content/uploads/2017/08/mc4hr-logo.png"
-						style="width: 80px; margin-top: 10px;" border="0"
-						alt="MCHR" /></a>
+					<a href="/"><img src="https://migrantcenter.org/wp-content/uploads/2017/10/MCFHR-logo-500x500.png"  border="0" alt="MCHR" class="logo-main"
+						style="margin: 10px; width: 100px;" /></a>
 				</div>
 				<div class="left-side header-site-title">
 					<a href="/">Migrant Center For Human Rights</a>
 				</div>
-				<div class="right-side" style="margin-top: 32px;">
-					<button id="btn-donate" class="btn-style1" href="javascript:"
-						onclick="window.location='/contact-us';" style="margin-right: 30px;">DONATE</button>
+				<div class="right-side" style="margin-top: 40px;">
+					<a id="btn-donate" class="btn-style1" href="/donate"
+						style="margin-right: 10px;">DONATE</a>
+					<div id="google_translate_element" style="margin-right: 20px;"></div>
+					<script type="text/javascript">
+					function googleTranslateElementInit() {
+					  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+					}
+					</script>
 				</div>
 			</div>
 		</div>

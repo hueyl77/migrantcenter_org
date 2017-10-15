@@ -1286,7 +1286,7 @@ if ( ! function_exists( 'alone_footer' ) ) :
 		$bearsthemes_link	 = 'http://bearsthemes.com/';
 		$show_footer_widgets = isset( $alone_footer_settings['show_footer_widgets']['selected_value'] ) ? $alone_footer_settings['show_footer_widgets']['selected_value'] : 'no';
 		$copyright_position  = isset( $alone_footer_settings['copyright_position'] ) ? $alone_footer_settings['copyright_position'] : 'fw-copyright-center text-center';
-		$copyright           = isset( $alone_footer_settings['copyright'] ) ? $alone_footer_settings['copyright'] : 'Copyright &copy;'. date("Y") .'  Migrant Center For Human Rights. All Rights Reserved';
+		$copyright           = isset( $alone_footer_settings['copyright'] ) ? $alone_footer_settings['copyright'] : 'Copyright &copy; '. date("Y") .'  Migrant Center For Human Rights. All Rights Reserved.';
 		?>
 		<?php if ( $show_footer_widgets == 'yes' ) :
 			get_template_part( 'templates/footers/footer-widgets' );
@@ -1295,6 +1295,7 @@ if ( ! function_exists( 'alone_footer' ) ) :
 		<div class="bt-footer-bar <?php echo esc_attr($copyright_position); ?>">
 			<div class="container">
 				<div class="footer-text">P.O. BOX 90382 San Antonio, TX 78209</div>
+				<div class="footer-text">210-802-6061</div>
 				<div class="bt-copyright"><?php echo "{$copyright}"; ?></div>
 			</div>
 		</div>
